@@ -39,7 +39,9 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | `dist/assets/hope-portrait.jpg` | Profile photograph |
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
 | `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
-| `dist/assets/rth-system.svg` | Illustrative system diagram |
+| `dist/assets/rth-dashboard-redacted.png` | RTH operations dashboard with permanent privacy redactions |
+| `dist/assets/rth-shift-calendar-redacted.png` | RTH shift calendar with permanent privacy redactions |
+| `dist/assets/rth-staff-login.png` | RTH sign-in screenshot with empty credential fields |
 | `dist/assets/c360-template-library.jpg` | Actual C-360 shared template library screenshot |
 | `dist/assets/c360-template-editor.jpg` | Actual C-360 shared template editor screenshot |
 | `dist/assets/messaging-flow.svg` | Illustrative SMS delivery workflow |
@@ -81,7 +83,8 @@ Upload everything inside `dist/` to the host’s public directory. Keep all HTML
 
 ## Content and privacy
 
-- The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. RTH and ESA Messaging use illustrative diagrams. Private source repositories and internal application URLs are not published.
+- The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. ESA Messaging uses an illustrative diagram. Private source repositories and internal application URLs are not published.
+- RTH uses the three screenshots supplied by the portfolio owner. The dashboard and calendar have permanent opaque redactions covering private names, record details, metric values, account initials, dates, and the internal URL. Generic interface labels and static thresholds remain visible; they disclose no individual records or actual counts. The login fields are empty. Pixels outside the redactions are unchanged; EXIF, XMP, and other identifying metadata were removed, retaining only the original color profile. Only the sanitized copies are included in the site and repository.
 - C-360 uses unaltered application screenshots captured during authenticated staging UI verification on 26 October 2026. They show the generic shared template library and Retainer template editor, with no client records, contact details, pricing, or signatures. The library header shows the portfolio owner's own name. The images were visually checked and contain only standard JPEG/JFIF image metadata. No client documents or application credentials are included.
 - The portfolio includes no tracking, cookies, external fonts, or third-party scripts.
 - The `.openai/hosting.json` file connects this workspace to its Sites deployment. It contains a project identifier, not a credential, and is not required by other hosts.

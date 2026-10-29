@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="620" height="520" viewBox="0 0 620 520" fill="none">
-  <g stroke="#424651"><circle cx="310" cy="260" r="112"/><circle cx="310" cy="260" r="176"/><circle cx="310" cy="260" r="242"/></g>
-  <path d="M310 260 130 110M310 260 502 112M310 260 91 355M310 260 493 408" stroke="#8B95AA"/>
-  <g fill="#2854F5"><circle cx="130" cy="110" r="9"/><circle cx="502" cy="112" r="9"/><circle cx="91" cy="355" r="9"/><circle cx="493" cy="408" r="9"/><circle cx="310" cy="260" r="112" stroke="#6581FF"/></g>
-  <g fill="#FAFAF5"><circle cx="130" cy="110" r="3"/><circle cx="502" cy="112" r="3"/><circle cx="91" cy="355" r="3"/><circle cx="493" cy="408" r="3"/></g>
-  <g fill="#DDE0E8" font-family="Arial, Helvetica, sans-serif" font-size="17"><text x="47" y="90">Staff portal</text><text x="437" y="90">Caregiver app</text><text x="63" y="388">Intake forms</text><text x="461" y="441">Integrations</text></g>
-  <text x="310" y="280" fill="#FAFAF5" font-family="Arial, Helvetica, sans-serif" font-size="65" letter-spacing="-3" text-anchor="middle">RTH</text>
-  <text x="310" y="307" fill="#D8E1FF" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="1" text-anchor="middle">CONNECTED SYSTEM</text>
-</svg>
