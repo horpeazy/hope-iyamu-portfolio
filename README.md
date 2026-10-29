@@ -2,6 +2,10 @@
 
 A responsive portfolio for software engineering and applied AI, implemented from the approved Figma design. Includes selected projects, experience, contact links, and a dedicated Ready To Help case study.
 
+**Live website:** https://hope-iyamu-portfolio.livelytang257.chatgpt.site/ — public, no sign-in required.
+
+**Source:** https://github.com/horpeazy/hope-iyamu-portfolio
+
 The website is plain HTML, CSS, and a small JavaScript file for mobile navigation. No build step, package installation, database, API key, or backend is required.
 
 ## Preview locally
@@ -31,6 +35,8 @@ The CSS variables at the top of `styles.css` control the main colors. The system
 
 ## Deploy
 
+The current public website is hosted on Sites. Pushing to GitHub stores the source; it does not automatically update the Sites deployment.
+
 Choose one hosting option. In every case, publish **the contents of `dist/`**, not the project root.
 
 ### Netlify: upload without Git
@@ -42,6 +48,8 @@ Choose one hosting option. In every case, publish **the contents of `dist/`**, n
 For Git-connected deployment, import your repository. Leave the build command empty and set the publish directory to `dist`; the included `netlify.toml` already supplies that directory.
 
 ### GitHub Pages: deploy when you push
+
+For this repository, the Pages workflow is currently disabled. A successful deployment revealed that the account-level Pages domain, `oauthv1.me`, does not resolve. Correct that domain's DNS or remove the custom-domain setting from `horpeazy/horpeazy.github.io`, then enable this repository's workflow before using GitHub Pages. The public Sites link above is already working independently of that domain.
 
 1. Create an empty GitHub repository for this portfolio.
 2. Push the contents of this project folder to its `main` branch, including `.github/workflows/deploy-pages.yml`.
@@ -62,5 +70,5 @@ Upload everything inside `dist/` to the host’s public directory. Keep `index.h
 
 - The RTH case study describes professional team contributions. Its diagram is illustrative; it contains no live operational or customer data.
 - The portfolio includes no tracking, cookies, external fonts, or third-party scripts.
-- The `.openai/hosting.json` file, when present, connects this workspace to its private Sites preview. It is not required by other hosts and can be omitted from your GitHub repository.
+- The `.openai/hosting.json` file connects this workspace to its Sites deployment. It contains a project identifier, not a credential, and is not required by other hosts.
 - The portrait, project screenshots, personal information, and brand names belong to their respective owners. This project does not grant a license to reuse those assets or imply ownership of proprietary RTH source code.
