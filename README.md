@@ -6,7 +6,15 @@ A responsive portfolio for software engineering and applied AI, implemented from
 
 **Source:** https://github.com/horpeazy/hope-iyamu-portfolio
 
-The website is plain HTML, CSS, and a small JavaScript file for mobile navigation. No build step, package installation, database, API key, or backend is required.
+The website is plain HTML, CSS, and JavaScript. No build step, package installation, database, API key, or backend is required.
+
+## Motion and interaction
+
+- Staggered typography and portrait entrances, with subtle scroll-linked movement.
+- Section reveals, hover-responsive project previews, and a following project cursor on pointer devices.
+- Magnetic round buttons and an animated floating navigation drawer.
+- Native page transitions in supporting browsers; ordinary navigation elsewhere.
+- Keyboard focus stays inside the open menu; Escape closes it. Touch keeps ordinary tap targets, and reduced-motion preferences disable decorative movement. Navigation and content remain available without JavaScript.
 
 ## Preview locally
 
@@ -25,7 +33,7 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | `dist/index.html` | Introduction, projects, experience, contact details |
 | `dist/rth.html` | RTH case study |
 | `dist/assets/styles.css` | Colors, typography, spacing, responsive layouts |
-| `dist/assets/site.js` | Mobile navigation behavior |
+| `dist/assets/site.js` | Navigation, scroll reveals, pointer interactions, and motion preferences |
 | `dist/assets/hope.jpg` | Profile photograph |
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
 | `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
