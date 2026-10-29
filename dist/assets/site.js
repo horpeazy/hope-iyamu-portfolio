@@ -66,7 +66,7 @@ if (menuButton && drawer && typeof drawer.showModal === 'function') {
 }
 
 // Motion is progressive enhancement: the page is readable before this runs.
-const revealTargets = document.querySelectorAll('.section-intro, .rth-feature, .project-meta, .project-visual, .project-copy, .archive > h2, .archive-list li, .about-copy, .experience li, .contact-heading, .case-facts, .case-system, .contributions > div, .contributions li, .engineering-focus, .case-cta');
+const revealTargets = document.querySelectorAll('.section-intro, .rth-feature, .project-meta, .project-visual, .project-copy, .archive > h2, .archive-list li, .about-copy, .experience > li, .contact-heading, .case-facts, .case-system, .contributions > div, .contributions li, .engineering-focus, .case-cta');
 let revealObserver;
 
 function setMotionPreference() {
