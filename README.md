@@ -34,7 +34,7 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | `dist/rth.html` | RTH case study |
 | `dist/assets/styles.css` | Colors, typography, spacing, responsive layouts |
 | `dist/assets/site.js` | Navigation, scroll reveals, pointer interactions, and motion preferences |
-| `dist/assets/hope.jpg` | Profile photograph |
+| `dist/assets/hope-portrait.jpg` | Profile photograph |
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
 | `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
 | `dist/assets/rth-system.svg` | Illustrative system diagram |
