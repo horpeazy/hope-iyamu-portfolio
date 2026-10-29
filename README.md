@@ -1,6 +1,6 @@
 # Hope Iyamu — Portfolio
 
-A responsive portfolio for software engineering and applied AI, implemented from the approved Figma design. Includes selected projects, experience, contact links, and a dedicated Ready To Help case study.
+A responsive portfolio for software engineering and applied AI, implemented from the approved Figma design. Includes selected projects, experience, contact links, and case studies for Ready To Help, C-360 PM, and ESA Messaging.
 
 **Live website:** https://hope-iyamu-portfolio.livelytang257.chatgpt.site/ — public, no sign-in required.
 
@@ -32,14 +32,18 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | --- | --- |
 | `dist/index.html` | Introduction, projects, experience, contact details |
 | `dist/rth.html` | RTH case study |
+| `dist/c360.html` | C-360 PM case study |
+| `dist/esa-messaging.html` | ESA Messaging case study |
 | `dist/assets/styles.css` | Colors, typography, spacing, responsive layouts |
 | `dist/assets/site.js` | Navigation, scroll reveals, pointer interactions, and motion preferences |
 | `dist/assets/hope-portrait.jpg` | Profile photograph |
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
 | `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
 | `dist/assets/rth-system.svg` | Illustrative system diagram |
+| `dist/assets/c360-workflow.svg` | Illustrative proposal workflow |
+| `dist/assets/messaging-flow.svg` | Illustrative SMS delivery workflow |
 
-The CSS variables at the top of `styles.css` control the main colors. The system font stack uses Arial/Helvetica as a close, dependency-free match for the design’s Arimo typography. All images are local. Contact links open the visitor’s email application; there is no contact form or email service. Project links open external sites in a new tab.
+The CSS variables at the top of `styles.css` control the main colors. The system font stack uses Arial/Helvetica as a close, dependency-free match for the design’s Arimo typography. All images are local. Contact links open the visitor’s email application; there is no contact form or email service. Case studies open in the same tab; external project links open in a new tab.
 
 ## Deploy
 
@@ -72,11 +76,11 @@ Create a Pages project and upload `dist` using Direct Upload, or connect the rep
 
 ### Any static web host
 
-Upload everything inside `dist/` to the host’s public directory. Keep `index.html`, `rth.html`, and `assets/` together. No routing rewrites are required. Test the homepage, RTH page, anchor links, and mobile menu after deployment.
+Upload everything inside `dist/` to the host’s public directory. Keep all HTML pages and `assets/` together. No routing rewrites are required. Test the homepage, case studies, anchor links, and mobile menu after deployment.
 
 ## Content and privacy
 
-- The RTH case study describes professional team contributions. Its diagram is illustrative; it contains no live operational or customer data.
+- The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. Their diagrams are illustrative; they contain no live operational or customer data. Private source repositories and internal application URLs are not published.
 - The portfolio includes no tracking, cookies, external fonts, or third-party scripts.
 - The `.openai/hosting.json` file connects this workspace to its Sites deployment. It contains a project identifier, not a credential, and is not required by other hosts.
 - The portrait, project screenshots, personal information, and brand names belong to their respective owners. This project does not grant a license to reuse those assets or imply ownership of proprietary RTH source code.

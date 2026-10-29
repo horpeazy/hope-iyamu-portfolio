@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="520" viewBox="0 0 620 520" fill="none">
+  <rect width="620" height="520" fill="#191A1C"/>
+  <path d="M310 126V166M310 270V310M310 414V447" stroke="#7484A8" stroke-width="2"/>
+  <path d="m304 155 6 11 6-11m-12 144 6 11 6-11m-12 125 6 11 6-11" stroke="#7484A8" stroke-width="2"/>
+  <rect x="75" y="30" width="470" height="96" rx="4" fill="#262A33" stroke="#525C70"/>
+  <rect x="75" y="166" width="470" height="104" rx="4" fill="#2854F5"/>
+  <rect x="75" y="310" width="470" height="104" rx="4" fill="#262A33" stroke="#525C70"/>
+  <g font-family="Arial, Helvetica, sans-serif" text-anchor="middle">
+    <g fill="#FAFAF5" font-size="29" letter-spacing="-.5"><text x="310" y="73">Send a message</text><text x="310" y="211">Track the delivery</text><text x="310" y="355">Reconcile the evidence</text></g>
+    <g fill="#C4CDE0" font-size="17"><text x="310" y="101">Application → SMS provider</text><text x="310" y="241" fill="#EDF1FF">Verified callbacks · Status updates</text><text x="310" y="385">Delivery attempts · Provider costs</text></g>
+    <text x="310" y="483" fill="#A8B4CF" font-size="16" letter-spacing="1">A TRACEABLE MESSAGE JOURNEY</text>
+  </g>
+</svg>

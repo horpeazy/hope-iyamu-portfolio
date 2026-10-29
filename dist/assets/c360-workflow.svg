@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="520" viewBox="0 0 620 520" fill="none">
+  <rect width="620" height="520" fill="#E8D9C9"/>
+  <g stroke="#C7B39D"><circle cx="310" cy="249" r="220"/><circle cx="310" cy="249" r="176"/></g>
+  <rect x="144" y="47" width="354" height="405" rx="3" fill="#C7B39D" transform="rotate(4 321 249)"/>
+  <rect x="123" y="38" width="354" height="405" rx="3" fill="#FAF7F1" stroke="#B49D86"/>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#452F23">
+    <text x="151" y="76" font-size="13" letter-spacing="2">C-360 / PROPOSALS</text>
+    <text x="151" y="126" font-size="35" letter-spacing="-1">A brief becomes</text>
+    <text x="151" y="166" font-size="35" letter-spacing="-1">a shared plan.</text>
+    <path d="M151 191H449" stroke="#D8CABC"/>
+    <text x="151" y="228" font-size="14" fill="#765C47">01</text><text x="190" y="228" font-size="23">Client brief &amp; scope</text>
+    <text x="151" y="279" font-size="14" fill="#765C47">02</text><text x="190" y="279" font-size="23">AI-assisted draft</text>
+    <text x="151" y="330" font-size="14" fill="#765C47">03</text><text x="190" y="330" font-size="23">Review &amp; refine</text>
+    <text x="151" y="381" font-size="14" fill="#765C47">04</text><text x="190" y="381" font-size="23">Signed agreement</text>
+  </g>
+  <circle cx="477" cy="402" r="44" fill="#2854F5"/>
+  <path d="m457 402 14 14 27-29" stroke="#FAFAF5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="310" y="495" text-anchor="middle" fill="#624B38" font-family="Arial, Helvetica, sans-serif" font-size="12" letter-spacing="1.5">CONTEXT → DRAFT → HUMAN REVIEW → SIGN</text>
+</svg>

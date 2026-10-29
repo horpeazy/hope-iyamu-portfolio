@@ -81,6 +81,10 @@ a:hover .arrow { transform: translate(3px, -3px); }
 .project-visual { padding: 32px 34px; display: flex; flex-direction: column; justify-content: space-between; min-width: 0; }
 .loreloot-visual { background: #d8e0f2; color: #2854f5; }
 .property-visual { background: #dce5de; color: #245742; }
+.c360-visual { background: #e8d9c9; color: #573b29; }
+.c360-visual .visual-caption { color: #624b38; }
+.workflow-preview { width: 100%; height: auto; margin-block: 20px; transition: transform .35s ease; }
+.project-visual:hover .workflow-preview { transform: translateY(-4px); }
 .visual-brand { font-size: 24px; line-height: 1.3; font-weight: 700; letter-spacing: -.035em; }
 .browser-preview { margin-block: 31px; background: white; box-shadow: 12px 14px 0 #191a1c; border-radius: 5px 5px 0 0; transition: transform .3s ease, box-shadow .3s ease; }
 .project-visual:hover .browser-preview { transform: translate(-3px, -3px); box-shadow: 15px 17px 0 #191a1c; }
@@ -166,7 +170,7 @@ a:hover .arrow { transform: translate(3px, -3px); }
 .footer-bottom > div { display: flex; gap: 48px; }
 .footer-bottom a { font-size: 14px; min-height: 44px; display: inline-flex; align-items: center; }
 
-/* The RTH case study uses the same typography and spacing as the homepage. */
+/* Case studies share the homepage typography and spacing. */
 .back-link { font-size: 16px; min-height: 44px; display: inline-flex; align-items: center; }
 .case-intro { padding-top: 66px; }
 .case-intro h1 { font-size: clamp(50px, 6.94vw, 100px); line-height: 1.11; letter-spacing: -.045em; margin-top: 65px; margin-left: -.045em; }
@@ -471,5 +475,5 @@ html.menu-open { overflow: hidden; }
   *, *::before, *::after { animation: none !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1 !important; translate: 0 0 !important; }
   .project-cursor { display: none; }
-  .circle-arrow, .system-figure img, .browser-preview { transform: none !important; translate: 0 0 !important; }
+  .circle-arrow, .system-figure img, .browser-preview, .workflow-preview { transform: none !important; translate: 0 0 !important; }
 }
