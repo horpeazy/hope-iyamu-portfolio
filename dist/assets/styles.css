@@ -184,6 +184,15 @@ a:hover .arrow { transform: translate(3px, -3px); }
 .case-system-copy > p:last-child { font-size: 18px; line-height: 1.7; color: #bdc4d2; max-width: 420px; margin-top: 52px; }
 .case-system > img { width: 100%; align-self: center; }
 .case-system-caption { grid-column: 1 / -1; color: #a5aebb; font-size: 10px; margin-top: 40px; }
+.c360-gallery .case-system-copy { grid-column: 1 / -1; }
+.c360-gallery h2 { margin-top: 28px; }
+.c360-gallery .case-system-copy > p:last-child { max-width: 680px; margin-top: 24px; }
+.case-screenshot { grid-column: 1 / -1; min-width: 0; margin: 36px 0 0; }
+.case-screenshot a { display: block; }
+.case-screenshot img { display: block; width: 100%; height: auto; }
+.case-screenshot figcaption { margin-top: 18px; }
+.case-screenshot figcaption .eyebrow { color: #afb6c6; font-size: 11px; }
+.case-screenshot figcaption p { color: #bdc4d2; font-size: 15px; line-height: 1.6; margin-top: 8px; }
 .contributions { display: grid; grid-template-columns: 1fr 1.2fr; gap: 60px; padding-top: 82px; padding-bottom: 100px; }
 .contributions > div > .eyebrow, .engineering-focus .eyebrow { color: var(--muted); }
 .contributions h2, .engineering-focus h2 { font-size: clamp(38px, 4.1vw, 59px); line-height: 1.15; letter-spacing: -.035em; margin-top: 34px; }

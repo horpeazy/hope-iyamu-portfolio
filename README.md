@@ -40,7 +40,8 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
 | `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
 | `dist/assets/rth-system.svg` | Illustrative system diagram |
-| `dist/assets/c360-workflow.svg` | Illustrative proposal workflow |
+| `dist/assets/c360-template-library.jpg` | Actual C-360 shared template library screenshot |
+| `dist/assets/c360-template-editor.jpg` | Actual C-360 shared template editor screenshot |
 | `dist/assets/messaging-flow.svg` | Illustrative SMS delivery workflow |
 
 The CSS variables at the top of `styles.css` control the main colors. The system font stack uses Arial/Helvetica as a close, dependency-free match for the design’s Arimo typography. All images are local. Contact links open the visitor’s email application; there is no contact form or email service. Case studies open in the same tab; external project links open in a new tab.
@@ -80,7 +81,8 @@ Upload everything inside `dist/` to the host’s public directory. Keep all HTML
 
 ## Content and privacy
 
-- The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. Their diagrams are illustrative; they contain no live operational or customer data. Private source repositories and internal application URLs are not published.
+- The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. RTH and ESA Messaging use illustrative diagrams. Private source repositories and internal application URLs are not published.
+- C-360 uses unaltered application screenshots captured during authenticated staging UI verification on 26 October 2026. They show the generic shared template library and Retainer template editor, with no client records, contact details, pricing, or signatures. The library header shows the portfolio owner's own name. The images were visually checked and contain only standard JPEG/JFIF image metadata. No client documents or application credentials are included.
 - The portfolio includes no tracking, cookies, external fonts, or third-party scripts.
 - The `.openai/hosting.json` file connects this workspace to its Sites deployment. It contains a project identifier, not a credential, and is not required by other hosts.
 - The portrait, project screenshots, personal information, and brand names belong to their respective owners. This project does not grant a license to reuse those assets or imply ownership of proprietary RTH source code.
