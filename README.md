@@ -1,6 +1,6 @@
 # Hope Iyamu — Portfolio
 
-A responsive portfolio for software engineering and applied AI, implemented from the approved Figma design. Includes selected projects, experience, contact links, and case studies for Ready To Help, C-360 PM, and ESA Messaging.
+A responsive portfolio for software engineering and applied AI, implemented from the approved Figma design. Includes selected projects, experience, contact links, and case studies for Ready To Help, C-360 PM, CoRider, and ESA Messaging.
 
 **Live website:** https://hope-iyamu-portfolio.livelytang257.chatgpt.site/ — public, no sign-in required.
 
@@ -34,11 +34,13 @@ Open http://localhost:8080. Stop the server with Ctrl+C.
 | `dist/rth.html` | RTH case study |
 | `dist/c360.html` | C-360 PM case study |
 | `dist/esa-messaging.html` | ESA Messaging case study |
+| `dist/corider.html` | CoRider case study: problem, implementation, screenshots, and lessons |
 | `dist/assets/styles.css` | Colors, typography, spacing, responsive layouts |
 | `dist/assets/site.js` | Navigation, scroll reveals, pointer interactions, and motion preferences |
 | `dist/assets/hope-portrait.jpg` | Profile photograph |
 | `dist/assets/loreloot.jpg` | LoreLoot screenshot |
-| `dist/assets/expert-listing.jpg` | Expert Listing screenshot |
+| `dist/assets/corider-matching.jpg` | CoRider matching and request screen with synthetic demo data |
+| `dist/assets/corider-history.jpg` | CoRider ride history with fictional campus trips |
 | `dist/assets/rth-dashboard-redacted.png` | RTH operations dashboard with permanent privacy redactions |
 | `dist/assets/rth-shift-calendar-redacted.png` | RTH shift calendar with permanent privacy redactions |
 | `dist/assets/rth-staff-login.png` | RTH sign-in screenshot with empty credential fields |
@@ -83,6 +85,7 @@ Upload everything inside `dist/` to the host’s public directory. Keep all HTML
 
 ## Content and privacy
 
+- CoRider is a personal campus carpooling prototype, linked to its public [source repository](https://github.com/horpeazy/CoRider). The case study was checked against commit `8d11f7cfbb2df015c2384d354ef73d062bfdd9af`. Its matching and history screenshots were captured on 30 October 2026 from the original Django application running locally with an isolated SQLite database, fictional campus trips, and demo users. The crops exclude the template's contact details and marketing claims. No original application source was changed for the screenshots; no real rider records, credentials, or customer data are included. Payments and in-app messaging are described as future work, and the portfolio does not imply a live ride service or commercial adoption.
 - The RTH, C-360 PM, and ESA Messaging case studies describe professional team contributions. ESA Messaging uses an illustrative diagram. Private source repositories and internal application URLs are not published.
 - RTH uses the three screenshots supplied by the portfolio owner. The dashboard and calendar have permanent opaque redactions covering private names, record details, metric values, account initials, dates, and the internal URL. Generic interface labels and static thresholds remain visible; they disclose no individual records or actual counts. The login fields are empty. Pixels outside the redactions are unchanged; EXIF, XMP, and other identifying metadata were removed, retaining only the original color profile. Only the sanitized copies are included in the site and repository.
 - C-360 uses unaltered application screenshots captured during authenticated staging UI verification on 26 October 2026. They show the generic shared template library and Retainer template editor, with no client records, contact details, pricing, or signatures. The library header shows the portfolio owner's own name. The images were visually checked and contain only standard JPEG/JFIF image metadata. No client documents or application credentials are included.
