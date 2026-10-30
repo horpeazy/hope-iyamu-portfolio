@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="660" viewBox="0 0 620 660" fill="none">
+  <rect width="620" height="660" fill="#191A1C"/>
+  <g stroke="#CFB458" stroke-width="2"><path d="M310 142v38m0 112v38m0 112v38"/><path d="m304 172 6 8 6-8m-12 150 6 8 6-8m-12 150 6 8 6-8"/></g>
+  <rect x="30" y="30" width="560" height="112" rx="4" fill="#28292B"/>
+  <rect x="30" y="180" width="560" height="112" rx="4" fill="#CFB458"/>
+  <rect x="30" y="330" width="560" height="112" rx="4" fill="#28292B"/>
+  <rect x="30" y="480" width="560" height="112" rx="4" fill="#28292B"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <g font-size="17" fill="#CFB458"><text x="54" y="66">01</text><text x="54" y="216" fill="#191A1C">02</text><text x="54" y="366">03</text><text x="54" y="516">04</text></g>
+    <g font-size="30" fill="#FAFAF5"><text x="112" y="79">Order intake</text><text x="112" y="229" fill="#191A1C">Customization</text><text x="112" y="379">Production</text><text x="112" y="529">Customer delivery</text></g>
+    <g font-size="19" fill="#C4C5C8"><text x="112" y="111">Capture the customer's requirements</text><text x="112" y="261" fill="#302B1B">Coordinate the uniform details</text><text x="112" y="411">Embroidery or manufacturing</text><text x="112" y="561">Complete the order journey</text></g>
+    <text x="310" y="637" text-anchor="middle" fill="#B8B9BD" font-size="15" letter-spacing="1.5">CUSTOM UNIFORM ORDER WORKFLOW</text>
+  </g>
+</svg>
